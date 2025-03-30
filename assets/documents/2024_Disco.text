@@ -1,0 +1,8 @@
+@misc{liu2023generative,
+      title={Generative Disco: Text-to-Video Generation for Music Visualization}, 
+      author={Vivian Liu and Tao Long and Nathan Raw and Lydia Chilton},
+      year={2023},
+      eprint={2304.08551},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
+}
