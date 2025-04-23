@@ -1,8 +1,8 @@
 
-
+document.addEventListener("DOMContentLoaded", function () {
 //variables
-const numBalls = 70;
-const speed = .95;
+const numBalls = 100;
+const speed = .4;
 const gravity = 0.1;
 const friction = 1;
 const ctx = document.querySelector('.world');
@@ -13,9 +13,10 @@ let ballSize = {
 }
 
 let windowSize = {
-	w : window.innerWidth,
-	h : window.innerHeight
-}
+	w: window.innerWidth,
+	h: window.innerHeight  // ← instead of window.innerHeight
+  }
+  
 
 let mouse = {
 	x : windowSize.w / 2,
@@ -23,7 +24,7 @@ let mouse = {
 }
 
 let colors = ['#ff2e4c', '#2e99b0', '#3a0088'];
-let emojiArray = ['💥', '✨', '🧑🏻‍💻', '🎉', '🎈', '🏳️‍🌈', '🍑', '🗽'];
+let emojiArray = ['💖', '✨', '🧑🏻‍💻', '🎉', '🎈', '🎏', '🗼', '🌸', '🗼', '🍑', '🗽'];
 
 //events
 window.addEventListener('mousemove', function(e) {
@@ -37,11 +38,11 @@ window.addEventListener('resize', resizeDetect);
 //utility functions
 function resizeDetect () {
 	windowSize.w = window.innerWidth;
-	windowSize.h = window.innerHeight;
-	ballSize.min = Math.round(windowSize.w/10 - 150);
-	ballSize.max = Math.round(windowSize.w/10 + 100);
-}
-
+	windowSize.h = document.body.scrollHeight;
+	ballSize.min = Math.round(windowSize.w / 10 - 150);
+	ballSize.max = Math.round(windowSize.w / 10 + 100);
+  }
+  
 function randomIntFromRange(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -127,9 +128,27 @@ function animate() {
 // 	createEls(true);
 // }, false);
 
-setInterval(function(){
+const animationInterval = setInterval(function(){
 	requestAnimationFrame(animate);
 }, 10);
+
+setTimeout(() => {
+	clearInterval(animationInterval);
+
+	// Fade out all emoji balls
+	document.querySelectorAll('.ball').forEach(ball => {
+		ball.style.transition = 'opacity 1s ease-out';
+		// ball.style.opacity = '0.2';  // or '0' to fully hide
+	});
+
+	// Lighten the background of <div class="wrapper">
+	const mainWrapper = document.querySelector('.wrapper');
+	if (mainWrapper) {
+		mainWrapper.style.transition = 'background-color 1s ease-out';
+		mainWrapper.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
+	}
+}, 5000);
+
 
 resizeDetect();
 createEls(false);
@@ -141,7 +160,8 @@ const sliderOpacity = document.querySelector("#sliderOpacity");
 const img = document.querySelector("#world");
 
 sliderOpacity.addEventListener('input', function(){
-  img.style.opacity = (sliderOpacity.value)/100;
+  img.style.opacity = (sliderOpacity.value)/200;
 // I divide by 100 because "opacity" takes a value between 0 and 1.
 });
 
+});
