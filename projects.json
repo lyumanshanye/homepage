@@ -6,7 +6,7 @@
       "description": "FeedQUAC delivers ambient, read-aloud commentary from personas via shortcut keys and auditory cues.",
       "image": "assets/images/feedquack.png",
       "icon": "assets/images/feedquack1.webp",
-      "pdf": "assets/documents/2025_FeedQUAC.pdf"
+      "pdf": "https://arxiv.org/abs/2504.16416"
     },
     {
       "id": "doubleagents",
