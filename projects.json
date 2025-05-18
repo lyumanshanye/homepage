@@ -1,4 +1,14 @@
-    [{
+    [
+      {
+        "id": "doubleagents",
+        "title": "DoubleAgents: AI Agents for Task Execution and Evaluation in Human Coordination Problems",
+        "authors": "Tao Long*, Xuanming Zhang*, Sitong Wang, Arav Dhoot, Zhou Yu, Lydia Chilton",
+        "status": "In Submission",
+        "description": "DoubleAgents helps users co-establish and execute policies, evaluated via simulated test cases.",
+        "image": "assets/images/doubleagents.png",
+        "icon": "assets/images/doubleagents.gif"
+      },
+      {
       "id": "feedquac",
       "title": "FeedQUAC: Quick Unobtrusive AI-Generated Commentary",
       "authors": "Tao Long, Kendra Wannamaker, Jo Vermeulen, George Fitzmaurice, Justin Matejka",
@@ -9,22 +19,14 @@
       "pdf": "https://arxiv.org/abs/2504.16416"
     },
     {
-      "id": "doubleagents",
-      "title": "DoubleAgents: AI Agents for Task Execution and Evaluation in Human Coordination Problems",
-      "authors": "Tao Long*, Xuanming Zhang*, Sitong Wang, Arav Dhoot, Zhou Yu, Lydia Chilton",
-      "status": "In Submission",
-      "description": "DoubleAgents helps users co-establish and execute policies, evaluated via simulated test cases.",
-      "image": "assets/images/doubleagents.png",
-      "icon": "assets/images/doubleagents.gif"
-    },
-    {
       "id": "sociolect",
       "title": "Not Like Us, Hunty: Measuring Perceptions and Behavioral Effects of Minoritized Anthropomorphic Cues in LLMs",
       "authors": "Jeffrey Basoah, Daniel Chechelnitsky, Tao Long, Katharina Reinecke, Chrysoula Zerva, Kaitlyn Zhou, Mark Díaz, Maarten Sap",
       "status": "FAccT 2025",
       "description": "A study with 985 participants reveals sociolect-infused LLMs nfluence trust, reliance, and social presence.",
       "image": "assets/images/sociolect.png",
-      "icon": "assets/images/sociolect1.gif"
+      "icon": "assets/images/sociolect1.gif",
+      "pdf": "https://arxiv.org/abs/2505.05660"
     },
     {
       "id": "longitudinal",
@@ -43,7 +45,7 @@
     {
       "id": "longitudinalworkshop",
       "title": "Facilitating Longitudinal Research in HCI ",
-      "authors": "Tao Long, Sitong Wang, Julien Porquet, Yue Jiang, Jason Wu, Tuhin Chakrabarty, Savvas Petridis, David Ledo, Ding Li, Lydia Chilton",
+      "authors": "Tao Long, Sitong Wang, Julien Porquet, Yue Jiang, Jason Wu, Tuhin Chakrabarty, Savvas Petridis, David Ledo, Ding Li, Tiffany Tseng, Jeffrey Nickerson, Lydia Chilton",
       "status": "<a href='assets/documents/2024_Longitudinal_Workshop.pdf' target='_blank' rel='noopener noreferrer'>&nbsp;&nbsp;&nbsp;<i class='fa fa-file'></i>&nbsp;&nbsp;Workshop Proposal&nbsp;&nbsp;&nbsp;</a>",
       "status1": "<a href='https://arxiv.org/abs/2502.05347' target='_blank' rel='noopener noreferrer'>&nbsp;&nbsp;&nbsp;<i class='fa fa-file'></i>&nbsp;&nbsp;14-week Deployment&nbsp;&nbsp;&nbsp;</a>",
       "description": "A workshop to facilitate discussion and advance research on long-term user studies in HCI.",
