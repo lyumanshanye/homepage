@@ -24,7 +24,7 @@ let mouse = {
 }
 
 let colors = ['#ff2e4c', '#2e99b0', '#3a0088'];
-let emojiArray = ['💖', '✨', '🧑🏻‍💻', '🎉', '🎈', '🎏', '🗼', '🌸', '🗼', '🍑', '🗽'];
+let emojiArray = ['🪻', '🦋', '🌿', '🍡', '🏵️' , '⛰️', '🎐', '🎏', '🌸', '🍧'];
 
 //events
 window.addEventListener('mousemove', function(e) {
