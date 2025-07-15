@@ -712,7 +712,7 @@ h4 {
   border-radius: 8px;
   transform-style: preserve-3d;
   transform-origin: 50% 50%;
-  background: #fff;
+  background: #F7F8F5;
   transform: rotateX(17deg) rotateY(18deg);
 }
 .thickness {
@@ -799,7 +799,7 @@ h4 {
     position: absolute;
     top: -30px;
     right: -30px;
-    background: #fff;
+    background: #F7F8F5;
     color: black;
     border-radius: 50%;
     padding: 0.4em 0.8em;

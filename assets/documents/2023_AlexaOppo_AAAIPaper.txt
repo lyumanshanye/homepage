@@ -1,6 +1,0 @@
-@article{long2023challenges,
-  title={Challenges and Opportunities for the Design of Smart Speakers},
-  author={Long, Tao and Chilton, Lydia B},
-  journal={arXiv preprint arXiv:2306.05741},
-  year={2023}
-}
