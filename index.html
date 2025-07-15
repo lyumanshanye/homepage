@@ -1,5 +1,5 @@
-
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -25,7 +25,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -43,205 +43,275 @@
 <meta property="og:type" content="website">
 <meta property="og:image" content="/assets/image/myface22-removebg.png">
 
+<!-- Custom overrides for layout and colors -->
+<style>
+  /* Override body background color */
+  body {
+    background-color: #F7F8F5 !important;
+  }
+  
+  /* Highlight class for lab and professor names */
+  .highlight {
+    color: #9D8DDB !important;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .highlight:hover {
+    color: #7A6BB8 !important;
+    text-decoration: underline;
+  }
+  
+  /* Layout modifications for intro section */
+  .intro-layout .col-md-5 {
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+  }
+  
+  .intro-layout .col-md-7 {
+    flex: 0 0 70% !important;
+    max-width: 70% !important;
+  }
+  
+  /* Full width sections after intro */
+  .full-width-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+  }
+  
+  /* Twitter icon fix */
+  .fa-twitter:before {
+    content: "\f099";
+  }
+  
+  .fab.fa-x-twitter:before {
+    content: "\e61b";
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .intro-layout .col-md-5,
+    .intro-layout .col-md-7 {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+  }
+</style>
+
 </head>
 
 <body>
-  <div class="world">  </div>
-  <div class="site-content" style="position: relative; z-index: 1;">
-  <header class="page-content">
-  <nav class="navbar navbar-expand-md navbar-light py-4">
-    <div class="container-fluid px-0">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto mt-4 mt-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#news">news</a>
-          </li>
-          <li class="nav-item"> 
-            <a class="nav-link" aria-current="page" href="#research">research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="https://drive.google.com/file/d/1UKFflnVb_Tys2lncaU56uxMfYAgL-0Dv/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV<i class="fa fa-external-link" aria-hidden="true" style="padding-left: 5px;"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-  
-
-<div class="container py-3">
-  <div class="row">
-      <div class="col-12 col-md-5 align-self-center mb-4 mb-md-0">
-          <a class="nonselectable" href="assets/images/lyuye.JPG" target="_blank" rel="noopener noreferrer">
-            <img style="width:100%;padding-right:5px; padding-bottom: 5px; max-width: 400px;" alt="profile photo" src="assets/images/lyuye.JPG" title="Profile Photo">
-          </a>
-      </div>
-
-<div class="col-12 col-md-7 align-self-center">
-  <h4 style="font-weight: 600">🌿 Lyumanshan Ye (she/her)</h4>
-  
-   <p class="mt-3 intro-text"> Hi, 👋🏻I'm Lyumanshan Ye, a master's student at Shanghai Jiao Tong University. Currently, I am a research intern at the 
-                <a href="https://plms.ai/" target="_blank" rel="noopener noreferrer" class="highlight">GAIR Lab</a>. 
-                I am fortunate to be advised by 
-                <a href="https://scholar.google.com/citations?user=oIz_CYEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="highlight">Prof. Pengfei Liu</a>. 
-                I am grateful for his full support of my exploration into promising research directions at the intersection of NLP and HCI.Here are some core problems I’m thinking about:
-            </p>
-
-            <ul class="list-disc list-outside ml-5 space-y-2">
-                <li>
-                    <strong>Human-AI Collaborative & Adaptive Systems:</strong> How to optimize the delegation of tasks to AI while preserving space for human-intensive decision-making?
-                </li>
-                <li>
-                    <strong>Human Autonomy and Control:</strong> How to create AI systems that can seamlessly integrate with human workflows while maintaining human autonomy and control?
-                </li>
-                 <li>
-                    <strong>Human-AI Scaffold to Improve Foundation Reasoning Ability:</strong> How to use human-AI collaboration data to train agents that can think while doing?
-                </li>
+  <div class="world"></div>
+  <div class="site-content">
+    <header class="page-content">
+      <nav class="navbar navbar-expand-md navbar-light py-4">
+        <div class="container-fluid px-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-4 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#news">news</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#research">research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://drive.google.com/file/d/1UKFflnVb_Tys2lncaU56uxMfYAgL-0Dv/view?usp=sharing" target="_blank">CV<i class="fa fa-external-link" style="padding-left: 5px;"></i></a>
+              </li>
             </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-            <p>
-                My ultimate research goal is to build more effective Human-AI communication layers. This involves enhancing users' ability to describe and clarify their real-world context when interacting with AI systems, maximizing co-performance in Human-AI collaboration, and enabling AI systems to learn from the true rewards of real-world human tasks. In my view, AI should serve to form a deep partnership with humans, enhancing their capabilities rather than supplanting them.
+    <main class="page-content">
+      <!-- Intro Section with side-by-side layout -->
+      <div class="intro-section">
+        <div class="intro-photo">
+          <img src="assets/images/lyuye.JPG" alt="Lyumanshan Ye" title="Profile Photo">
+        </div>
+        
+        <div class="intro-text">
+          <h4>🌿 Lyumanshan Ye (she/her)</h4>
+          
+          <p>Hi, 👋🏻I'm Lyumanshan Ye, a master's student at Shanghai Jiao Tong University. Currently, I am a research intern at the 
+            <a href="https://plms.ai/" target="_blank" class="highlight">GAIR Lab</a>. 
+            I am fortunate to be advised by 
+            <a href="https://scholar.google.com/citations?user=oIz_CYEAAAAJ&hl=en" target="_blank" class="highlight">Prof. Pengfei Liu</a>. 
+            I am grateful for his full support of my exploration into promising research directions at the intersection of NLP and HCI. Here are some core problems I'm thinking about:
+          </p>
+
+          <ul>
+            <li><strong>Human-AI Collaborative & Adaptive Systems:</strong> How to optimize the delegation of tasks to AI while preserving space for human-intensive decision-making?</li>
+            <li><strong>Human Autonomy and Control:</strong> How to create AI systems that can seamlessly integrate with human workflows while maintaining human autonomy and control?</li>
+            <li><strong>Human-AI Scaffold to Improve Foundation Reasoning Ability:</strong> How to use human-AI collaboration data to train agents that can think while doing?</li>
+          </ul>
+
+          <div class="contact-links">
+            <a href="mailto:yelvmanshan@gmail.com" target="_blank">
+              <i class="fa fa-envelope"></i>
+              yelvmanshan@gmail.com
+            </a>
+            <a href="https://x.com/ylmnshn1" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+              twitter
+            </a>
+            <a href="https://scholar.google.com/citations?hl=en&user=NZNHP20AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">
+              <i class="fa fa-graduation-cap"></i>
+              google scholar
+            </a>
+            <a href="https://drive.google.com/file/d/1UKFflnVb_Tys2lncaU56uxMfYAgL-0Dv/view?usp=sharing" target="_blank">
+              <i class="fa fa-file"></i>
+              cv (04/2025)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full-width content sections -->
+      <div class="full-width-section">
+        <p>My ultimate research goal is to build more effective Human-AI communication layers. This involves enhancing users' ability to describe and clarify their real-world context when interacting with AI systems, maximizing co-performance in Human-AI collaboration, and enabling AI systems to learn from the true rewards of real-world human tasks. In my view, AI should serve to form a deep partnership with humans, enhancing their capabilities rather than supplanting them.</p>
+        
+        <p>As a researcher with an interdisciplinary background, my MSc major is Mechanical Engineering from SJTU's School of Design (advised by <a href="#" class="highlight">Prof. Danni Chang</a>). I have collaborated with leading researchers such as <a href="#" class="highlight">Prof. Xin Yi</a> (Tsinghua University) on LLM privacy and <a href="#" class="highlight">Dr. Qiao Jin</a> (Carnegie Mellon University) on AIED.</p>
+
+        <p>A few interesting facts about me: My name has been changed three times, as my family wished it to convey the freshness and vitality of spring. In Chinese, it means "green leaves covering the mountains," a fitting image of my hometown, Fujian — a region known for its verdant hills.</p>
+      </div>
+
+      <!-- News Section -->
+      <div class="full-width-section" id="news">
+        <h4>News / Travel</h4>
+        
+        <div class="row mt-4">
+          <div class="col-12">
+            <p style="font-size: 0.95rem;">
+              <span style="font-size: 0.9rem; font-weight: 200;">Apr 2025</span> 🎏 🇯🇵 CHI 2025 Yokohama, Japan 🌸 🗼
             </p>
-            
-            <p>
-                As a researcher with an interdisciplinary background, my MSc major is Mechanical Engineering from SJTU's School of Design (advised by <strong class="highlight">Prof. Danni Chang</strong>). I have collaborated with leading researchers such as <strong class="highlight">Prof. Xin Yi</strong> (Tsinghua University) on LLM privacy and <strong class="highlight">Dr. Qiao Jin</strong> (Carnegie Mellon University) on AIED.
+          </div>
+        </div>
+      </div>
+
+      <!-- Research Section -->
+      <div class="full-width-section" id="research">
+        <h4>Research</h4>
+        <p style="font-size: 0.85rem;">
+          My Info/Sci and Design background made me understand that technology has both communicative capacity and responsibility. My research journey has been anything but linear. If these research questions resonate with you, I'd love to hear from you. Click here to <a href="mailto:yelyumanshan@sjtu.edu.cn" class="highlight">reach out :D</a>
+        </p>
+
+        <!-- Project: Colin -->
+        <div class="row mt-4" style="padding-bottom: 1rem;">
+          <div class="col-12 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+            <img src="https://via.placeholder.com/300x200/E8E8E8/666666?text=Colin+System" 
+                 class="project-image" 
+                 style="width: 85%;" 
+                 alt="Colin System">
+          </div>
+          <div class="col-12 col-md-9 align-self-center">
+            <p style="font-size: 1rem; font-weight: 500; margin-bottom: 0.5rem;">
+              🌿 Colin: A Multimodal Human-AI Co-Creation Storytelling System to Support children's Multi-Level Narrative Skills
             </p>
+            <p style="font-size: 0.9rem; font-weight: 200; margin-bottom: 0.5rem;">
+              <strong>Lyumanshan Ye</strong>, Jiandong Jiang, Yuhan Liu, Yihan Ran, <a href="#" class="highlight">Pengfei Liu</a>, <a href="#" class="highlight">Danni Chang</a>
+            </p>
+            <p style="font-size: 0.9rem; margin-bottom: 0.3rem;">
+              <span style="font-weight: 400; background-color: rgba(255, 255, 255, 0.25);">CHI EA 2025</span> // An interactive storytelling tool that supports children's multi-level narrative skills through both voice and visual modalities.
+            </p>
+            <p style="font-size: 0.9rem; font-weight: 300;">
+              <a href="https://dl.acm.org/doi/10.1145/3706599.3719837" target="_blank"><i class="fa fa-file"></i> PDF</a>
+            </p>
+          </div>
+        </div>
 
-            <p class="fun-fact">
-                A few interesting facts about me: My name has been changed three times, as my family wished it to convey the freshness and vitality of spring. In Chinese, it means "green leaves covering the mountains," a fitting image of my hometown, Fujian — a region known for its verdant hills.
-            </p>   
-</p>
-    
-<p style="position:relative; font-size:.95rem;font-weight: 500;line-height: 2rem;" class="myemail">
-  <a href="mailto:yelvmanshan@gmail.com" target="_blank" rel="noopener noreferrer">
-    <i class="fa fa-envelope" style="font-weight: 500;margin-left:12.5px;padding-right:10px;margin-right:2px" aria-hidden="true"></i>
-    yelvmanshan@gmail.com
-  </a>
-  <a style="font-weight: 500;margin-left:12.5px;padding-right:10px;margin-right:24.5px" href="https://x.com/ylmnshn1" target="_blank" rel="noopener noreferrer">
-    <i class="fa fa-twitter" style="margin-left: 10px;margin-right: 0px;font-size: 18.5px;"></i>
-    <span class="smallest-screen-br" style="margin-left:10px">twitter</span>
-  </a>
-  <span class="small-screen-br"><br></span>
-  <a style="font-weight: 500;margin-left:0.5px;padding-right:10px;margin-right:10px" href="https://scholar.google.com/citations?hl=en&user=NZNHP20AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer">
-    <i class="fa fa-graduation-cap" style="margin-left: 10px;margin-right: 9px;font-size: 16.5px;"></i>google scholar
-  </a>
-  <a style="font-weight: 500;margin-left:12.5px;padding-right:10px;margin-right:10px" href="https://drive.google.com/file/d/1UKFflnVb_Tys2lncaU56uxMfYAgL-0Dv/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-    <i class="fa fa-file" style="margin-left: 10px;margin-right: 10px;font-size: 15.5px;"></i>
-    <span style="font-size:.98rem">cv</span> <span style="font-size:.8rem">(04/2025)</span>
-  </a>
-</p>
+        <!-- Project: Ghost of the past -->
+        <div class="row mt-4" style="padding-bottom: 1rem;">
+          <div class="col-12 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+            <img src="https://via.placeholder.com/300x200/E8E8E8/666666?text=Memory+Analyzer" 
+                 class="project-image" 
+                 style="width: 85%;" 
+                 alt="Memory Analyzer">
+          </div>
+          <div class="col-12 col-md-9 align-self-center">
+            <p style="font-size: 1rem; font-weight: 500; margin-bottom: 0.5rem;">
+              👻 Ghost of the past: identifying and resolving privacy leakage from LLM's memory through proactive user interaction
+            </p>
+            <p style="font-size: 0.9rem; font-weight: 200; margin-bottom: 0.5rem;">
+              <strong>Shuning Zhang, Lyumanshan Ye</strong>, <a href="#" class="highlight">Xin Yi</a>, Jingyu Tang, Bo Shui, Haobin Xing, <a href="#" class="highlight">Pengfei Liu</a>, Hewu Li
+            </p>
+            <p style="font-size: 0.9rem; margin-bottom: 0.3rem;">
+              <span style="font-weight: 400; background-color: rgba(255, 255, 255, 0.25);">In Submission</span> // MemoAnalyzer, a system for identifying, visualizing, and managing private information within memories.
+            </p>
+            <p style="font-size: 0.9rem; font-weight: 300;">
+              <a href="https://arxiv.org/abs/2410.14931" target="_blank"><i class="fa fa-file"></i> arXiv</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Project: SenseBot -->
+        <div class="row mt-4" style="padding-bottom: 1rem;">
+          <div class="col-12 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+            <img src="https://via.placeholder.com/300x200/E8E8E8/666666?text=SenseBot" 
+                 class="project-image" 
+                 style="width: 85%;" 
+                 alt="SenseBot">
+          </div>
+          <div class="col-12 col-md-9 align-self-center">
+            <p style="font-size: 1rem; font-weight: 500; margin-bottom: 0.5rem;">
+              🤖 SenseBot: Leveraging Embodied Asymmetric Interaction and Social Robotic to Enhance Intergenerational Communication
+            </p>
+            <p style="font-size: 0.9rem; font-weight: 200; margin-bottom: 0.5rem;">
+              <strong>Lyumanshan Ye</strong>, Hao Jin, <a href="#" class="highlight">Qiao Jin</a>
+            </p>
+            <p style="font-size: 0.9rem; margin-bottom: 0.3rem;">
+              <span style="font-weight: 400; background-color: rgba(255, 255, 255, 0.25);">UIST 2024 Workshop</span> // A workshop to facilitate discussion and advance research on long-term user studies in HCI.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project: Gesture -->
+        <div class="row mt-4" style="padding-bottom: 1rem;">
+          <div class="col-12 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+            <img src="https://via.placeholder.com/300x200/E8E8E8/666666?text=Gesture+Study" 
+                 class="project-image" 
+                 style="width: 85%;" 
+                 alt="Gesture Study">
+          </div>
+          <div class="col-12 col-md-9 align-self-center">
+            <p style="font-size: 1rem; font-weight: 500; margin-bottom: 0.5rem;">
+              🎆 Just Like Blooming Fireworks, And Match With Function Perfectly: Explore and Evaluate User-Defined One-Handed Gestures of Smartwatch
+            </p>
+            <p style="font-size: 0.9rem; font-weight: 200; margin-bottom: 0.5rem;">
+              <strong>Lyumanshan Ye</strong>, Jiatong Yue, Yiwen Wei, Shuai Liang, <a href="#" class="highlight">Danni Chang</a>
+            </p>
+            <p style="font-size: 0.9rem; margin-bottom: 0.3rem;">
+              <span style="font-weight: 400; background-color: rgba(255, 255, 255, 0.25);">CHI EA 2023</span> // Explore user-defined one-handed gestures for smartwatch interaction.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project: Robot Knowledge Graphs -->
+        <div class="row mt-4" style="padding-bottom: 1rem;">
+          <div class="col-12 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+            <img src="https://via.placeholder.com/300x200/E8E8E8/666666?text=Robot+Knowledge" 
+                 class="project-image" 
+                 style="width: 85%;" 
+                 alt="Robot Knowledge">
+          </div>
+          <div class="col-12 col-md-9 align-self-center">
+            <p style="font-size: 1rem; font-weight: 500; margin-bottom: 0.5rem;">
+              🤖 Patterns for representing knowledge graphs to communicate situational knowledge of service robots
+            </p>
+            <p style="font-size: 0.9rem; font-weight: 200; margin-bottom: 0.5rem;">
+              <strong>Shengchen Zhang, Zixuan Wang, Chaoran Chen, Yi Dai, Lyumanshan Ye</strong>, Xiaohua Sun
+            </p>
+            <p style="font-size: 0.9rem; margin-bottom: 0.3rem;">
+              <span style="font-weight: 400; background-color: rgba(255, 255, 255, 0.25);">CHI 2023</span> // Patterns for representing knowledge graphs to communicate situational knowledge of service robots.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
-</div>
-
-<!-- News -->
-<div class="container pb-3 px-0 px-md-3" id="news" style="padding-top: 3rem;" >
-  <h4 style="font-weight: 600 !important; padding-bottom: .5rem;"> News / Travel</h4>
-  <!-- <p style="font-size:.85rem; margin-bottom: -.7rem!important;">Below is a list of recent updates, which admittedly focuses on good news. However, I think it's also important to share *bad news*, to normalize sadness, vulnerabilities, rejections, and failures :) While it's far from perfect, you can check some of my thoughts on this <a href="https://docs.google.com/document/d/15EydRc9tADp3dYvuqYfwhYUbdX_3waVLRc9ZDeWbz44/edit?usp=sharing" target="_blank" rel="noopener noreferrer">other side of the mood blog</a>. If you want, I'm happy to chat!</p> -->
-
-  <div class="row mt-4">
-    <!-- Highlighted CHI 2025 Item -->
-    <div class="col-12">
-      <p class="mb-0" style="font-size: 0.95rem; font-weight: 400 !important; display:inline-block;"> 
-        <span class="mb-1" style="font-size: .9rem; font-weight: 200 !important; display:inline-block"> Apr 2025 </span>  🎏 🇯🇵 CHI 2025 Yokohama, Japan 🌸 🗼
-      </p>
-    </div>
-
-    <!-- All other news hidden inside details -->
-  </div>
-</div>
-
-
-<!-- Research -->
-<div class="container pb-3 px-0 px-md-3" id="research" style="padding-top: 2rem;">
-    <h4 style="font-weight: 600 !important; padding-bottom: .5rem;"> Research</h4>
- <p style="font-size:.85rem"> 
-        <!-- Research Statement -->
-          My Info/Sci and Design background made me understand that technology has both communicative capacity and responsibility. My research journey has been anything but linear. If these research questions resonate with you, I'd love to hear from you. Click here to <a href="yelyumanshan@sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">reach out :D</a>
-</p>
-<div class="row mt-4">
-  <div id="projects-container" style="margin-left:15px; z-index: 120;"></div>
-  <script>
-    async function loadProjects() {
-      const res = await fetch('projects.json');
-      const projects = await res.json();
-      const container = document.getElementById('projects-container');
-  
-      if (!container) {
-        console.error('Missing #projects-container');
-        return;
-      }
-  
-      projects.forEach(p => {
-        const links = [
-        p.pdf && `<a href="${p.pdf}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<i class="fa fa-file"></i>&nbsp;&nbsp;PDF&nbsp;&nbsp;&nbsp;</a>`,
-        p.arxiv && `<a href="${p.arxiv}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<img src="assets/images/arxiv-logo.svg" style="height: 1rem; filter: brightness(0%);">&nbsp;&nbsp;arXiv&nbsp;&nbsp;&nbsp;</a>`,
-        p.video && `<a href="${p.video}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;</a>`,
-        p.tweetorial && `<a href="${p.tweetorial}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;Tweetorial&nbsp;&nbsp;&nbsp;</a>`,
-        p.code && `<a href="${p.code}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;Code&nbsp;&nbsp;&nbsp;</a>`,
-        p.demo && `<a href="${p.demo}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<i class="fa fa-gamepad" aria-hidden="true" style="font-size:1.1rem"></i>&nbsp;&nbsp;Demo&nbsp;&nbsp;&nbsp;</a>`,
-        p.project && `<a href="${p.project}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;&nbsp;Project&nbsp;&nbsp;&nbsp;</a>`,
-        p.press && `<a href="${p.press}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;&nbsp;Press&nbsp;&nbsp;&nbsp;</a>`,
-        p.bibtex && `<a href="${p.bibtex}" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;<i class="fa fa-quote-right"></i>&nbsp;&nbsp;BibTeX&nbsp;&nbsp;&nbsp;</a>`
-      ].filter(Boolean).join('&nbsp;&nbsp;&nbsp;&nbsp;');
-  
-      const html = `
-  <div class="row mt-4" style="padding-bottom:1rem">
-    <div class="col-12 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
-  ${p.image ? `
-    <img
-      src="${p.image}"
-      width="85%"
-      style="cursor: pointer;"
-      onclick="openImageModal('${p.image}')"
-      class="clickable-image hover-opacity" 
-      alt="${p.title || ''}" title="${p.title || ''}">
-    <br>` : ''}
-</div>
-
-
-    <div class="col-12 col-md-9 align-self-center mb-4 mb-md-0">
-      <p class="mb-1" style="font-size: 1rem; font-weight: 500 !important;">
-        ${p.icon ? `<img src="${p.icon}" style="width:1.3rem; height:1.3rem; vertical-align: bottom; margin-bottom:0.15rem">` : ""}
-        &nbsp;${p.title || '[Untitled Project]'}
-      </p>
-    <p class="mb-1" style="font-size: .9rem; font-weight: 200 !important;">
-      <strong>${(p.authors || '').replace(/Tao Long\*?,/g, match => `<span style="border-bottom: 2px dotted lightgrey; padding-bottom: 2px;">${match}</span>`)}</strong>
-    </p>
-
-
-
-      <p class="mb-1" style="margin-bottom: .3rem; font-size: .9rem; padding-bottom: 0rem; font-weight: 200 !important;">
-    ${p.status ? `<span style="font-weight: 400; background-color: rgba(255, 255, 255, 0.25);">${p.status}</span> //` : ''}
-    ${p.description || ''}
-  </p>
-  <p class="mb-1" style="margin-bottom: 0rem;font-size: .9rem; font-weight: 200 !important;">
-    ${p.status1 ? `<span style="font-weight: 400; background-color: rgba(255, 255, 255, 0.25);">${p.status1}</span> //` : ''}
-    ${p.description1 || ''}
-  </p>
-  
-      <p style="font-size: .9rem; padding-bottom: .2rem; font-weight: 300 !important;" class="nonselectable">
-        ${links}
-      </p>
-
-    </div>
-  </div>
-`;
-
-        container.insertAdjacentHTML('beforeend', html);
-      });
-    }
-  
-    loadProjects();
-  </script>
-  
-</div>
-    
-  </body>
-
+</body>
 </html>
-
