@@ -24,7 +24,7 @@
     {
       "id": "llmemory",
       "title": "Ghost of the past: identifying and resolving privacy leakage from LLM's memory through proactive user interaction",
-      "authors": "Shuning Zhang, Lyumanshan Ye, Xin Yi, Jingyu Tang, Bo Shui, Haobin Xing, Pengfei Liu, Hewu Li",
+      "authors": "Lyumanshan Ye*, Shuning Zhang*, Xin Yi, Jingyu Tang, Bo Shui, Haobin Xing, Pengfei Liu, Hewu Li",
       "status": "In Submission",
       "description": "MemoAnalyzer, a system for identifying, visualizing, and managing private information within memories.",
       "image": "assets/images/memo.png",
@@ -76,7 +76,7 @@
     {
       "id": "SenseBot",
       "title": "SenseBot: Leveraging Embodied Asymmetric Interaction and Social Robotic to Enhance Intergenerational Communication",
-      "authors": "Lyumanshan Ye, Hao Jin, Qiao Jin",
+      "authors": "Lyumanshan Ye*, Hao Jin*, Qiao Jin",
       "status": "UIST 2024 Workshop",
       "description": "SenseBot, an augmented reality (AR)-enabled robotic representative designed to facilitate embodied communication.",
       "image": "assets/images/sense.png",
