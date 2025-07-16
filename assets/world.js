@@ -24,7 +24,7 @@ let mouse = {
 }
 
 let colors = ['#ff2e4c', '#2e99b0', '#3a0088'];
-let emojiArray = ['🪻', '🦋', '🌿', '🍡', '🏵️' , '⛰️', '🎐', '🎏', '🌸', '🍧'];
+let emojiArray = ['🪻', '🌿', '🍡', '🏵️' , '⛰️', '🎐', '🎏', '🌸', '🍧'];
 
 //events
 window.addEventListener('mousemove', function(e) {
@@ -145,7 +145,7 @@ setTimeout(() => {
 	const mainWrapper = document.querySelector('.wrapper');
 	if (mainWrapper) {
 		mainWrapper.style.transition = 'background-color 1s ease-out';
-		mainWrapper.style.backgroundColor = 'rgba(255, 255, 255, 0.85)';
+		mainWrapper.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
 	}
 }, 5000);
 

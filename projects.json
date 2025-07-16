@@ -16,8 +16,8 @@
       "description": "The first comprehensive framework for end-to-end training of LLM-based deep research agents through scaling reinforcement learning (RL) in real-world environments with authentic web search interactions.",
       "image": "assets/images/Deepresearcher.png",
       "pdf": "assets/documents/DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments.pdf",
-      "Arxiv": "https://arxiv.org/abs/2504.03160",
-      "Report": "https://mp.weixin.qq.com/s/SzLs2ceHTCY_WwhpXPCKoQ",
+      "arxiv": "https://arxiv.org/abs/2504.03160",
+      "report": "https://mp.weixin.qq.com/s/SzLs2ceHTCY_WwhpXPCKoQ",
       "github": "https://github.com/GAIR-NLP/DeepResearcher",
       "bibtex": "assets/documents/deepresearcher.txt"
      },
@@ -29,7 +29,8 @@
       "description": "MemoAnalyzer, a system for identifying, visualizing, and managing private information within memories.",
       "image": "assets/images/memo.png",
       "pdf": "assets/documents/Ghost of the past.pdf",
-      "Arxiv": "https://arxiv.org/abs/2410.14931",
+      "arxiv": "https://arxiv.org/abs/2410.14931",
+      "bibtex": "assets/documents/memo.txt",
       "video": "https://drive.google.com/file/d/1RVdnYkOU3PbdtkU01OU6DqA10-0hBSPR/view?usp=sharing"
     },
     {
@@ -41,7 +42,7 @@
       "image": "assets/images/adanony.png",
       "pdf": "assets/documents/Adanonymizer.pdf",
       "bibtex": "assets/documents/Adanonymizer.text",
-      "Arxiv": "https://arxiv.org/abs/2410.15044",
+      "arxiv": "https://arxiv.org/abs/2410.15044",
       "video": "https://drive.google.com/file/d/1_ViStIRV8LL1KHkcsLjKNyV0ZhELSno_/view?usp=sharing"
     },
     {
@@ -56,7 +57,7 @@
       "slide": "https://news.cornell.edu/stories/2022/12/better-digital-tools-could-help-immigrants-access-benefits",
       "github": "https://github.com/GAIR-NLP/OlympicArena",
       "bibtex": "assets/documents/Olympicarena.text",
-      "Report": "https://x.com/_akhaliq/status/1803265217826107588",
+      "report": "https://x.com/_akhaliq/status/1803265217826107588",
       "poster": "https://neurips.cc/media/PosterPDFs/NeurIPS%202024/97617.png?t=1731689532.7700467"
     },
     {
@@ -81,7 +82,7 @@
       "image": "assets/images/sense.png",
       "pdf": "assets/documents/SenseBot.pdf",
       "ACM DL": "https://dl.acm.org/doi/10.1145/3672539.3686734",
-      "Youtube": "https://www.youtube.com/watch?v=41nu5_3tcW8",
+      "video": "https://www.youtube.com/watch?v=41nu5_3tcW8",
       "bibtex": "assets/documents/sense.text"
     },
     {
@@ -90,7 +91,7 @@
       "authors": "Lyumanshan Ye, Jiatong Yue, Yiwen Wei, Shuai Liang, Danni Chang",
       "status": "CHI EA 2023",
       "description": "Generates music videos from text prompts using LLMs and text-to-image models, with controllable transitions.",
-      "image": "assets/images/gesture.jpg",
+      "image": "assets/images/gesture.png",
       "icon": "🎆",
       "ACM DL": "https://dl.acm.org/doi/10.1145/3544549.3585914",
       "pdf": "assets/documents/Blooming Fireworks gesture.pdf",
@@ -104,11 +105,10 @@
       "authors": "Shengchen Zhang, Zixuan Wang, Chaoran Chen, Yi Dai, Lyumanshan Ye, Xiaohua Sun",
       "status": "CHI 2023",
       "description": "We identify social-technical gaps in AI-assisted writing, focused on motivation, planning, and user values.",
-      "image": "assets/images/robot.jpg",
+      "image": "assets/images/robot.png",
       "pdf": "assets/documents/Paterns for Representing Knowledge Graphs to Communicate Situational Knowledge of Service Robots.pdf",
       "talk": "https://www.youtube.com/watch?v=0iErmMi7Q5M",
       "ACM DL": "https://dl.acm.org/doi/10.1145/3411764.3445767",
       "bibtex": "assets/documents/robot.text"
     }
   ]
-  
