@@ -1,5 +1,21 @@
     [
-
+      {
+      "id": "Deepcognition",
+      "title": "Interaction as Intelligence: Deep Research With Human-AI Interaction",
+      "authors": "Lyumanshan Ye, Xiaojie Cai, Junfei Wang, Xinkai Wang, Xiangkun Hu, Jiadi Su, Yang Nan, Sihan Wang, Bohan Zhang, Xiaoze Fan, Jinbin Luo, Yuxiang Zheng, Tianze Xu, Dayuan Fu, Yunze Wu, Pengrui Lu, Zengzhi Wang, Yiwei Qin, Zhen Huang, Yan Ma, Zhulin Hu, Haoyang Zou, Tiantian Mi, Yixin Ye, Ethan Chern, Pengfei Liu",
+      "status": "In Submission",
+      "description": "A system that transforms the human role from giving instructions to cognitive oversight—a mode of engagement where humans guide AI thinking processes through strategic intervention at critical junctures.",
+      "image": "assets/images/deepcog.png",
+      "pdf": "https://drive.google.com/file/d/10xTB8Z8MjBcRkuYpnzO3GFq7qGmdAY9l/view?usp=sharing"
+    },
+      {
+      "id": "Deepresearcher",
+      "title": "Deepresearcher: Scaling deep research via reinforcement learning in real-world environments",
+      "authors": "Lyumanshan Ye, Hao Jin, Qiao Jin",
+      "status": "UIST 2024 Workshop",
+      "description": "The first comprehensive framework for end-to-end training of LLM-based deep research agents through scaling reinforcement learning (RL) in real-world environments with authentic web search interactions.",
+      "image": "assets/images/Deepresearcher.png"
+     },
       {
       "id": "Colin",
       "title": "Colin: A Multimodal Human-AI Co-Creation Storytelling System to Support children’s Multi-Level Narrative Skills",
@@ -23,11 +39,23 @@
       "title": "Adanonymizer: Interactively Navigating and Balancing the Duality of Privacy and Output Performance in Human-LLM Interaction",
       "authors": "Tao Long, Katy Gero, Lydia Chilton",
       "status": "In Submission",
-      "description": "A 3-week longitudinal study showing a familiarization phase and increasesd AI usefulness through customization.",
-      "image": "assets/images/longitudinalslides2.png",
-      "icon": "assets/images/longitudinalworkshop.gif",
+      "description": "Adanonymizer, an anonymization plug-in that allows users to control this balance by navigating a trade-off curve.",
+      "image": "assets/images/adanony.png",
       "pdf": "assets/documents/2024_NotJustNovelty_DIS.pdf",
       "bibtex": "assets/documents/2024_Disco.text"
+    },
+    {
+      "id": "Olympicarena",
+      "title": "Olympicarena: Benchmarking multi-discipline cognitive reasoning for superintelligent ai",
+      "authors": "Zhen Huang, Zengzhi Wang, Shijie Xia, Xuefeng Li, Haoyang Zou, Ruijie Xu, Run-Ze Fan, Lyumanshan Ye, Ethan Chern, Yixin Ye, Yikai Zhang, Yuqing Yang, Ting Wu, Binjie Wang, Shichao Sun, Yang Xiao, Yiyuan Li, Fan Zhou, Steffi Chern, Yiwei Qin, Yan Ma, Jiadi Su, Yixiu Liu, Yuxiang Zheng, Shaoting Zhang, Dahua Lin, Yu Qiao, Pengfei Liu",
+      "status": "NIPS 2024",
+      "description": "OlympicArena, which includes 11,163 bilingual problems across both text-only and interleaved text-image modalities.",
+      "image": "assets/images/Olympicarena.jpg",
+      "pdf": "assets/documents/2022_Stakeholders_Asylum_CSCW.pdf",
+      "video": "https://www.youtube.com/watch?v=eqkzDvIYuwo",
+      "project": "https://rights4health.cornell.edu/",
+      "press": "https://news.cornell.edu/stories/2022/12/better-digital-tools-could-help-immigrants-access-benefits",
+      "bibtex": "assets/documents/2022_Stakeholders_Asylum_CSCW.txt"
     },
     {
       "id": "SenseBot",
@@ -56,27 +84,12 @@
       "authors": "Shengchen Zhang, Zixuan Wang, Chaoran Chen, Yi Dai, Lyumanshan Ye, Xiaohua Sun",
       "status": "CHI 2023",
       "description": "We identify social-technical gaps in AI-assisted writing, focused on motivation, planning, and user values.",
-      "image": "assets/images/socialdynamics.jpg",
-      "icon": "assets/images/socialdynamics.gif",
+      "image": "assets/images/robot.jpg",
       "pdf": "assets/documents/2023_SocialDynamics_CHI.pdf",
       "video": "https://youtu.be/Rx5N7sv3a68",
       "tweetorial": "https://twitter.com/taolongg/status/1648807802025005058?s=2",
       "press": "https://www.wired.com/story/artificial-intelligence-writing-art/",
       "bibtex": "assets/documents/2023_SocialDynamics_CHI.txt"
-    },
-    {
-      "id": "rights4health",
-      "title": "Multi-stakeholder Perspectives on Digital Tools for U.S. Asylum Applicants Seeking Healthcare and Legal Information",
-      "authors": "Aparajita Bhandari, Diana Freed, Tara Pilato, Faten Taki, Gunisha Kaur, Stephen Yale-Loehr, Jane Powers, Tao Long, Natalie Bazarova",
-      "status": "CSCW 2022",
-      "description": "Analyzes digital tool barriers for asylum applicants seeking healthcare/legal info.",
-      "image": "assets/images/rightsforhealth.jpg",
-      "icon": "assets/images/rightsforhealth.gif",
-      "pdf": "assets/documents/2022_Stakeholders_Asylum_CSCW.pdf",
-      "video": "https://www.youtube.com/watch?v=eqkzDvIYuwo",
-      "project": "https://rights4health.cornell.edu/",
-      "press": "https://news.cornell.edu/stories/2022/12/better-digital-tools-could-help-immigrants-access-benefits",
-      "bibtex": "assets/documents/2022_Stakeholders_Asylum_CSCW.txt"
     }
   ]
   
