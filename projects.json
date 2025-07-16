@@ -6,25 +6,21 @@
       "status": "In Submission",
       "description": "A system that transforms the human role from giving instructions to cognitive oversight—a mode of engagement where humans guide AI thinking processes through strategic intervention at critical junctures.",
       "image": "assets/images/deepcog.png",
-      "pdf": "https://drive.google.com/file/d/10xTB8Z8MjBcRkuYpnzO3GFq7qGmdAY9l/view?usp=sharing"
+      "pdf": "assets/documents/Interaction_as_Intelligence.pdf"
     },
       {
       "id": "Deepresearcher",
       "title": "Deepresearcher: Scaling deep research via reinforcement learning in real-world environments",
-      "authors": "Lyumanshan Ye, Hao Jin, Qiao Jin",
+      "authors": "Yuxiang Zheng, Dayuan Fu, Xiangkun Hu, Xiaojie Cai, Lyumanshan Ye, Pengrui Lu, Pengfei Liu",
       "status": "In Submission",
       "description": "The first comprehensive framework for end-to-end training of LLM-based deep research agents through scaling reinforcement learning (RL) in real-world environments with authentic web search interactions.",
-      "image": "assets/images/Deepresearcher.png"
+      "image": "assets/images/Deepresearcher.png",
+      "pdf": "assets/documents/DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments.pdf",
+      "Arxiv": "https://arxiv.org/abs/2504.03160",
+      "Report": "https://mp.weixin.qq.com/s/SzLs2ceHTCY_WwhpXPCKoQ",
+      "github": "https://github.com/GAIR-NLP/DeepResearcher",
+      "bibtex": "assets/documents/deepresearcher.txt"
      },
-      {
-      "id": "Colin",
-      "title": "Colin: A Multimodal Human-AI Co-Creation Storytelling System to Support children’s Multi-Level Narrative Skills",
-      "authors": "Lyumanshan Ye, Jiandong Jiang, Yuhan Liu, Yihan Ran, Pengfei Liu, Danni Chang",
-      "status": "CHI EA 2025",
-      "description": "An interactive storytelling tool that supports children's multi-level narrative skills through both voice and visual modalities.",
-      "image": "assets/images/colin.png",
-      "pdf": "https://dl.acm.org/doi/10.1145/3706599.3719837"
-    },
     {
       "id": "llmemory",
       "title": "Ghost of the past: identifying and resolving privacy leakage from LLM's memory through proactive user interaction",
@@ -32,17 +28,21 @@
       "status": "In Submission",
       "description": "MemoAnalyzer, a system for identifying, visualizing, and managing private information within memories.",
       "image": "assets/images/memo.png",
-      "pdf": "https://arxiv.org/abs/2410.14931"
+      "pdf": "assets/documents/Ghost of the past.pdf",
+      "Arxiv": "https://arxiv.org/abs/2410.14931",
+      "video": "https://drive.google.com/file/d/1RVdnYkOU3PbdtkU01OU6DqA10-0hBSPR/view?usp=sharing"
     },
     {
       "id": "Adanonymizer",
       "title": "Adanonymizer: Interactively Navigating and Balancing the Duality of Privacy and Output Performance in Human-LLM Interaction",
-      "authors": "Tao Long, Katy Gero, Lydia Chilton",
+      "authors": "Shuning Zhang, Xin Yi, Haobin Xing, Lyumanshan Ye, Yongquan Hu, Hewu Li",
       "status": "In Submission",
       "description": "Adanonymizer, an anonymization plug-in that allows users to control this balance by navigating a trade-off curve.",
       "image": "assets/images/adanony.png",
-      "pdf": "assets/documents/2024_NotJustNovelty_DIS.pdf",
-      "bibtex": "assets/documents/2024_Disco.text"
+      "pdf": "assets/documents/Adanonymizer.pdf",
+      "bibtex": "assets/documents/Adanonymizer.text",
+      "Arxiv": "https://arxiv.org/abs/2410.15044",
+      "video": "https://drive.google.com/file/d/1_ViStIRV8LL1KHkcsLjKNyV0ZhELSno_/view?usp=sharing"
     },
     {
       "id": "Olympicarena",
@@ -50,20 +50,39 @@
       "authors": "Zhen Huang, Zengzhi Wang, Shijie Xia, Xuefeng Li, Haoyang Zou, Ruijie Xu, Run-Ze Fan, Lyumanshan Ye, Ethan Chern, Yixin Ye, Yikai Zhang, Yuqing Yang, Ting Wu, Binjie Wang, Shichao Sun, Yang Xiao, Yiyuan Li, Fan Zhou, Steffi Chern, Yiwei Qin, Yan Ma, Jiadi Su, Yixiu Liu, Yuxiang Zheng, Shaoting Zhang, Dahua Lin, Yu Qiao, Pengfei Liu",
       "status": "NIPS 2024",
       "description": "OlympicArena, which includes 11,163 bilingual problems across both text-only and interleaved text-image modalities.",
-      "image": "assets/images/Olympicarena.jpg",
-      "pdf": "assets/documents/2022_Stakeholders_Asylum_CSCW.pdf",
-      "video": "https://www.youtube.com/watch?v=eqkzDvIYuwo",
-      "project": "https://rights4health.cornell.edu/",
-      "press": "https://news.cornell.edu/stories/2022/12/better-digital-tools-could-help-immigrants-access-benefits",
-      "bibtex": "assets/documents/2022_Stakeholders_Asylum_CSCW.txt"
+      "image": "assets/images/Olympicarena.png",
+      "pdf": "assets/documents/Olympicarena.pdf",
+      "project": "https://gair-nlp.github.io/OlympicArena/",
+      "slide": "https://news.cornell.edu/stories/2022/12/better-digital-tools-could-help-immigrants-access-benefits",
+      "github": "https://github.com/GAIR-NLP/OlympicArena",
+      "bibtex": "assets/documents/Olympicarena.text",
+      "Report": "https://x.com/_akhaliq/status/1803265217826107588",
+      "poster": "https://neurips.cc/media/PosterPDFs/NeurIPS%202024/97617.png?t=1731689532.7700467"
+    },
+    {
+      "id": "Colin",
+      "title": "Colin: A Multimodal Human-AI Co-Creation Storytelling System to Support children’s Multi-Level Narrative Skills",
+      "authors": "Lyumanshan Ye, Jiandong Jiang, Yuhan Liu, Yihan Ran, Pengfei Liu, Danni Chang",
+      "status": "CHI EA 2025",
+      "description": "An interactive storytelling tool that supports children's multi-level narrative skills through both voice and visual modalities.",
+      "image": "assets/images/colin.png",
+      "ACM DL": "https://dl.acm.org/doi/full/10.1145/3706599.3719837",
+      "video": "https://drive.google.com/file/d/1QxQq48J1WPCQUIxE6i-U_oFxAderN0rq/view?usp=sharing",
+      "poster": "assets/documents/colin.png",
+      "pdf": "assets/documents/colin.pdf",
+      "bibtex": "assets/documents/colin.text"
     },
     {
       "id": "SenseBot",
       "title": "SenseBot: Leveraging Embodied Asymmetric Interaction and Social Robotic to Enhance Intergenerational Communication",
       "authors": "Lyumanshan Ye, Hao Jin, Qiao Jin",
       "status": "UIST 2024 Workshop",
-      "description": "A workshop to facilitate discussion and advance research on long-term user studies in HCI.",
-      "image": "assets/images/SenseBot.png"
+      "description": "SenseBot, an augmented reality (AR)-enabled robotic representative designed to facilitate embodied communication.",
+      "image": "assets/images/sense.png",
+      "pdf": "assets/documents/SenseBot.pdf",
+      "ACM DL": "https://dl.acm.org/doi/10.1145/3672539.3686734",
+      "Youtube": "https://www.youtube.com/watch?v=41nu5_3tcW8",
+      "bibtex": "assets/documents/sense.text"
     },
     {
       "id": "gesture",
@@ -73,10 +92,11 @@
       "description": "Generates music videos from text prompts using LLMs and text-to-image models, with controllable transitions.",
       "image": "assets/images/gesture.jpg",
       "icon": "🎆",
-      "pdf": "https://arxiv.org/abs/2304.08551",
-      "5-min talk": "https://youtu.be/q22I53jHbuU",
-      "github": "https://github.com/hellovivian/generative-disco",
-      "bibtex": "assets/documents/2024_Disco.text"
+      "ACM DL": "https://dl.acm.org/doi/10.1145/3544549.3585914",
+      "pdf": "assets/documents/Blooming Fireworks gesture.pdf",
+      "talk": "https://drive.google.com/file/d/1N1i7nxuF12EfQmFvSzHJzxFEntToq8OT/view?usp=sharing",
+      "bibtex": "assets/documents/gesture.text",
+      "poster": "assets/documents/gesture.pdf"
     },
     {
       "id": "robot",
@@ -85,11 +105,10 @@
       "status": "CHI 2023",
       "description": "We identify social-technical gaps in AI-assisted writing, focused on motivation, planning, and user values.",
       "image": "assets/images/robot.jpg",
-      "pdf": "assets/documents/2023_SocialDynamics_CHI.pdf",
-      "video": "https://youtu.be/Rx5N7sv3a68",
-      "tweetorial": "https://twitter.com/taolongg/status/1648807802025005058?s=2",
-      "press": "https://www.wired.com/story/artificial-intelligence-writing-art/",
-      "bibtex": "assets/documents/2023_SocialDynamics_CHI.txt"
+      "pdf": "assets/documents/Paterns for Representing Knowledge Graphs to Communicate Situational Knowledge of Service Robots.pdf",
+      "talk": "https://www.youtube.com/watch?v=0iErmMi7Q5M",
+      "ACM DL": "https://dl.acm.org/doi/10.1145/3411764.3445767",
+      "bibtex": "assets/documents/robot.text"
     }
   ]
   

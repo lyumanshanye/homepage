@@ -1,0 +1,27 @@
+{\rtf1\ansi\ansicpg936\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red236\green236\blue236;}
+{\*\expandedcolortbl;;\cssrgb\c20000\c20000\c20000;\cssrgb\c94118\c94118\c94118;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 @inproceedings\{10.1145/3706599.3719837,\
+author = \{Ye, Lyumanshan and Jiang, Jiandong and Liu, Yuhan and Ran, Yihan and Chang, Danni\},\
+title = \{Colin: A Multimodal Human-AI Co-Creation Storytelling System to Support children\'92s Multi-Level Narrative Skills\},\
+year = \{2025\},\
+isbn = \{9798400713958\},\
+publisher = \{Association for Computing Machinery\},\
+address = \{New York, NY, USA\},\
+url = \{https://doi.org/10.1145/3706599.3719837\},\
+doi = \{10.1145/3706599.3719837\},\
+abstract = \{Children develop narrative skills by understanding and actively building connections between elements, image-text matching, and consequences. However, it is challenging for children to clearly grasp these multi-level links only through explanations of text or facilitator\'92s speech. To address this, we developed Colin, an interactive storytelling tool that supports children\'92s multi-level narrative skills through both voice and visual modalities. In the generation stage, Colin supports facilitator to define and review generated text and image content freely. In the understanding stage, a question-feedback model helps children understand multi-level connections while co-creating stories with Colin. In the building phase, Colin actively encourages children to create connections between elements through drawing and speaking. A user study with 20 participants evaluated Colin by measuring children\'92s engagement, understanding of cause-and-effect relationships, and the quality of their new story creations. Our results demonstrated that Colin significantly enhances the development of children\'92s narrative skills across multiple levels.\},\
+booktitle = \{Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems\},\
+articleno = \{139\},\
+numpages = \{11\},\
+keywords = \{Children, AI, Large Language Model, Story-Reading, Interaction, Human-AI Interaction, Personalization, Guided Conversation, Multi-Modal Interaction\},\
+location = \{\
+\},\
+series = \{CHI EA '25\}\
+\}}

@@ -145,7 +145,7 @@ setTimeout(() => {
 	const mainWrapper = document.querySelector('.wrapper');
 	if (mainWrapper) {
 		mainWrapper.style.transition = 'background-color 1s ease-out';
-		mainWrapper.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+		mainWrapper.style.backgroundColor = 'rgba(255, 255, 255, 0.85)';
 	}
 }, 5000);
 
