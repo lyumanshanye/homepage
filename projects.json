@@ -12,7 +12,7 @@
       "id": "Deepresearcher",
       "title": "Deepresearcher: Scaling deep research via reinforcement learning in real-world environments",
       "authors": "Lyumanshan Ye, Hao Jin, Qiao Jin",
-      "status": "UIST 2024 Workshop",
+      "status": "In Submission",
       "description": "The first comprehensive framework for end-to-end training of LLM-based deep research agents through scaling reinforcement learning (RL) in real-world environments with authentic web search interactions.",
       "image": "assets/images/Deepresearcher.png"
      },
